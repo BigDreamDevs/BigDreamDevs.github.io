@@ -1,0 +1,23 @@
+Page d'accueil
+
+ - bandeau en haut
+ - grande image captivante de la taille de l'écran de l'utilisateur
+ - un bouton sur cette image emmenant vers nos projets
+ - une liste des membres de l'organisation
+
+
+Projets
+
+
+
+Portfolio
+
+
+
+Contact
+
+
+
+
+ANIMATIONNNNNNNNNNNSSSSSSSSSSSSSSSSSSSSSSSS
+
