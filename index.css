@@ -1,3 +1,124 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    color: #333;
+    font-size: 4em;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: #9c9c9c;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+h3{
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+
+p{
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+hr{
+    border: 1px solid #e6e6e6;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.game-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0px;
+    flex: 0 0 33.3333%;
+    max-width: 30%;
+    position: relative;
+    margin-bottom: 15px;
+    z-index: 0;
+}
+
+.game-container:hover{
+    z-index: 20;
+}
+
+.game-container:hover .game-desc{
+    background-color: #3e3e3e;
+    color: #FFF;
+    transition: all 0.3s ease;
+    padding: 10px;
+    padding-bottom: auto;
+    margin: -10px;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+}
+
+.game-container:hover .game-desc-text{
+    transition: all 0.3s ease;
+    opacity: 1;
+    margin-bottom: 10px;
+}
+
+.game-desc{
+    background-color: #3e3e3e;
+    color: #FFF;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 2px;
+    margin: 0px;
+}
+
+.game-desc-text{
+    margin-bottom: -70px;
+    height: 65px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.game-img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.platform-img{
+    border-radius: 1px;
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    float: left;
+}
+
+.platform-img-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
