@@ -123,3 +123,12 @@ hr{
     justify-content: left;
     align-items: center;
 }
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: mediumseagreen;
+    border: 0px;
+    width:auto;
+}
