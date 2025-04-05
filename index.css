@@ -6,9 +6,10 @@ body{
 
 h1{
     color: #333;
-    font-size: 4em;
+    font-size: 5em;
     padding: 0px;
     margin-bottom: 0px;
+    font-weight: 200;
 }
 
 h2{
@@ -107,6 +108,7 @@ li {
     width: 100%;
     padding: 2px;
     margin: 0px;
+    padding-bottom: 4px;
 }
 
 .game-desc-text{
