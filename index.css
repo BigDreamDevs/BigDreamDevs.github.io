@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    background: linear-gradient(to bottom, #daf5ff 35%, white 40%);
 }
 
 h1{
@@ -10,6 +11,7 @@ h1{
     padding: 0px;
     margin-bottom: 0px;
     font-weight: 200;
+    margin-top: 100px;
 }
 
 h2{
@@ -258,4 +260,35 @@ content: close-quote;
 font-size:50px;
 color:#8a8a8a;
   
+}
+
+.doll {
+    width: 96px;
+    height: 96px;
+    animation: fall 4s linear infinite;
+    position: absolute;
+    user-select: none;
+    pointer-events:none;
+    z-index: -1;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-200px) rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(2000px) rotate(3600deg);
+        opacity: 0;
+    }
+}
+
+.cloud {
+    position: absolute;
+    transform: translateY(-350px);
+    width: 100%;
+    height: 500px;
+    z-index: 0;
+    user-select: none;
+    pointer-events:none;
 }
